@@ -138,6 +138,8 @@ android {
 }
 
 dependencies {
+    implementation project(':react-native-vector-icons')
+    implementation project(':react-native-onesignal')
     implementation project(':react-native-firebase')
     implementation project(':react-native-push-notification')
     implementation fileTree(dir: "libs", include: ["*.jar"])

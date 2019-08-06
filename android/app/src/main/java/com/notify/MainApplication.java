@@ -3,6 +3,8 @@ package com.notify;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.oblador.vectoricons.VectorIconsPackage;
+import com.geektime.rnonesignalandroid.ReactNativeOneSignalPackage;
 import io.invertase.firebase.RNFirebasePackage;
 import com.dieam.reactnativepushnotification.ReactNativePushNotificationPackage;
 import com.facebook.react.ReactNativeHost;
@@ -29,6 +31,8 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new VectorIconsPackage(),
+            new ReactNativeOneSignalPackage(),
           new RNFirebasePackage(),
           new ReactNativePushNotificationPackage(),
           new RNFirebaseMessagingPackage(),
