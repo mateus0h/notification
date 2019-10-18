@@ -9,7 +9,7 @@ export default class App extends Component{
 		fetch('https://onesignal.com/api/v1/notifications', {
 			method: 'POST',
 			headers: {
-				Authorization: 'Basic NzU5OWVhYTctOGJkNy00MGY5LThmM2EtODIyOTNkNGM5MmY2',
+// 				Authorization: 'Basic NzU5OWVhYTctOG', removendo informacoes sensiveis
 				Accept: 'application/json',
 				'Content-Type': 'application/json; charset=utf-8',
 			},
